@@ -1,0 +1,10 @@
+
+.about {
+    padding: 40px;
+    margin: 20px;
+}
+.about-info {
+    display: flex; 
+    font-size: 30px;
+    align-items: center;
+}
