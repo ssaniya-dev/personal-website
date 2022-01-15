@@ -9,12 +9,24 @@ import Work from './components/work'
 function App() {
   return (
     <div>
-      <Header/>
-      <About/>
-      <Skills/>
-      <Work/>
-      <Project/>
-      <Contact/>
+      <section id="header">
+        <Header/>
+      </section>
+      <section id ="about">
+        <About/>
+      </section>
+      <section id="skills">
+        <Skills/>
+      </section>
+      <section id="work">
+        <Work/>
+      </section>
+      <section id="projects">
+        <Project/>
+      </section>
+      <section id="contact">
+        <Contact/>
+      </section>
       <Footer/>
     </div>
   )
