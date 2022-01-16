@@ -18,14 +18,14 @@ function Project() {
                                 <div className="project-urls">
                                 <div className='project-url' href={project.demo}>
                                     {project.demo&& 
-                                    <a>
+                                    <a href={project.demo} target="_blank">
                                         <div className='link-btns'>
                                             Demo
                                         </div>
                                     </a>}
                                 </div>
-                                <div className='project-url' href={project.github}>
-                                    <a>
+                                <div className='project-url'>
+                                    <a href={project.github} target="_blank"> 
                                         <div className='link-btns'>
                                             Github
                                         </div>
