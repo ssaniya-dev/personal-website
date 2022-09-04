@@ -1,5 +1,5 @@
 import React from 'react'
-import { faBriefcase, faCode, faPhone, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faCode, faPhone, faLaptopCode, faFile } from '@fortawesome/free-solid-svg-icons'
 import "./mobilelinks.css"
 import {faWindowClose} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,6 +10,11 @@ function MobileLinks({show, setShow}) {
                 <FontAwesomeIcon icon={faWindowClose} onClick={()=>setShow(false)}/>
             </div>
             <div className='all-mobile-links'>
+                <div className="mobile-links">
+                    <a href="#resume">
+                        <FontAwesomeIcon className='links-icon' icon={faFile} size="2x" /> Resume
+                    </a> 
+                </div>
                 <div className="mobile-links">
                     <a href="#skills">
                         <FontAwesomeIcon className='links-icon' icon={faCode} size="2x" /> Skills

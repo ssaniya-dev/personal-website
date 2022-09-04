@@ -1,10 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import './weblinks.css'
-import { faBriefcase, faCode, faPhone, faLaptopCode } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase, faCode, faPhone, faLaptopCode, faFile } from '@fortawesome/free-solid-svg-icons'
 function Weblinks() {
     return (
         <div className="web">
+            <div className="web-links">
+                <a href="#resume">
+                    <FontAwesomeIcon className='links-icon' icon={faFile} size="2x" /> Resume
+                </a> 
+            </div>
             <div className="web-links">
                 <a href="#skills">
                     <FontAwesomeIcon className='links-icon' icon={faCode} size="2x" /> Skills

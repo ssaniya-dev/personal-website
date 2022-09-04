@@ -1,7 +1,7 @@
 export const ProjectArray=[
     {
         id: 1,
-        title: "TravelBeast",
+        title: "TravelHaven",
         about: "This is a React-based travel application that recommends tourists attractions based on a set of parameters such as rating and price point.",
         demo: "https://ssaniya-dev.github.io/fbla-travelapp/",
         github: "https://github.com/ssaniya-dev/fbla-travelapp",
