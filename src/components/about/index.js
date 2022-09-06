@@ -5,10 +5,11 @@ function About() {
     return (
         <div className='about'>
             <div className='about-info'>
-                Hello! I'm Saniya, an aspiring software engineer at Georgia Tech. Nice to meet you :)
+                <p>Hello! I'm Saniya, a student studying computer science at <span className='college'>Georgia Tech</span>. Nice to meet you :)</p>
             </div>
             <div className='resume-btn-div'>
-                <button className='resume-btn'>Here is my Resume!</button>
+                
+                <a href="https://drive.google.com/file/d/1YwWpsInBdMvMd6ys5_dt6I56BWcGT0-o/view?usp=sharing" target="_blank" className='resume-btn'>Here is my Resume!</a>
             </div>
             <Socials/>
         </div>

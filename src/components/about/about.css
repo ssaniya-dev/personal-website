@@ -7,6 +7,7 @@
     display: flex; 
     font-size: 30px;
     align-items: center;
+    text-align: center;
 }
 .resume-btn {
     color: white;
@@ -23,7 +24,13 @@
 .resume-btn:hover{
     opacity: 0.9;
 }
-
+.college {
+    background-image: linear-gradient(to left, rgb(248, 105, 66), rgb(249, 100, 36), rgb(214, 73, 73));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
 .resume-btn-div {
     text-align: center;
     padding-top: 20px;

@@ -11,7 +11,7 @@ export const SocialsArray=[
     }, 
     {
         name: 'Gmail',
-        url: "mailto: ssaniyasavla@gmail.com",
+        url: "mailto: saniya0savla@gmail.com",
         icon: require('../icons/gmail.svg').default,
     }
 ]

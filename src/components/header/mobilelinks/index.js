@@ -11,7 +11,7 @@ function MobileLinks({show, setShow}) {
             </div>
             <div className='all-mobile-links'>
                 <div className="mobile-links">
-                    <a href="#resume">
+                    <a href="https://drive.google.com/file/d/1YwWpsInBdMvMd6ys5_dt6I56BWcGT0-o/view?usp=sharing" target="_blank">
                         <FontAwesomeIcon className='links-icon' icon={faFile} size="2x" /> Resume
                     </a> 
                 </div>
