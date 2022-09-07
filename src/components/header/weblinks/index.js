@@ -6,7 +6,7 @@ function Weblinks() {
     return (
         <div className="web">
             <div className="web-links">
-                <a href="https://drive.google.com/file/d/1YwWpsInBdMvMd6ys5_dt6I56BWcGT0-o/view?usp=sharing" target="_blank">
+                <a href="https://drive.google.com/file/d/1cYiCmaW4HNPCAMIGjr-7-uJ1SMbj5vPj/view?usp=sharing" target="_blank">
                     <FontAwesomeIcon className='links-icon' icon={faFile} size="2x" /> Resume
                 </a> 
             </div>
