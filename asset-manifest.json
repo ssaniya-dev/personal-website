@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.679009a8.css",
-    "main.js": "/personal-website/static/js/main.00f20424.js",
-    "static/js/787.1d583568.chunk.js": "/personal-website/static/js/787.1d583568.chunk.js",
-    "static/media/gmail.svg": "/personal-website/static/media/gmail.e63054e4dad72e0c58efb6c5b7b8184d.svg",
-    "index.html": "/personal-website/index.html",
-    "static/media/github.svg": "/personal-website/static/media/github.b92a4d73a35c58a3cece1abc5c713a77.svg",
-    "static/media/linkedin.svg": "/personal-website/static/media/linkedin.cbcc01e88ced4debc089212351f7f3ea.svg",
-    "main.679009a8.css.map": "/personal-website/static/css/main.679009a8.css.map",
-    "main.00f20424.js.map": "/personal-website/static/js/main.00f20424.js.map",
-    "787.1d583568.chunk.js.map": "/personal-website/static/js/787.1d583568.chunk.js.map"
+    "main.css": "/static/css/main.679009a8.css",
+    "main.js": "/static/js/main.77066f83.js",
+    "static/js/787.1d583568.chunk.js": "/static/js/787.1d583568.chunk.js",
+    "static/media/gmail.svg": "/static/media/gmail.e63054e4dad72e0c58efb6c5b7b8184d.svg",
+    "index.html": "/index.html",
+    "static/media/github.svg": "/static/media/github.b92a4d73a35c58a3cece1abc5c713a77.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.cbcc01e88ced4debc089212351f7f3ea.svg",
+    "main.679009a8.css.map": "/static/css/main.679009a8.css.map",
+    "main.77066f83.js.map": "/static/js/main.77066f83.js.map",
+    "787.1d583568.chunk.js.map": "/static/js/787.1d583568.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.679009a8.css",
-    "static/js/main.00f20424.js"
+    "static/js/main.77066f83.js"
   ]
 }
