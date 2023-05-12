@@ -6,6 +6,7 @@ import Header from './components/header'
 import Project from './components/projects'
 import Skills from './components/skills'
 import Work from './components/work'
+import Research from './components/research'
 function App() {
   return (
     <div>
@@ -20,6 +21,9 @@ function App() {
       </section>
       <section id="work">
         <Work/>
+      </section>
+      <section id="research">
+        <Research/>
       </section>
       <section id="projects">
         <Project/>

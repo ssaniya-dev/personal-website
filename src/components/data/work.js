@@ -1,5 +1,13 @@
 export const WorkArray=[
     {
+        name: "Honeywell", 
+        title: "Incoming Software Engineering Intern", 
+        description: "TBA",
+        dateJoin: "May 2023", 
+        dateLeave: "August 2023", 
+        logo: "https://download.logo.wine/logo/Honeywell/Honeywell-Logo.wine.png"
+    }, 
+    {
         name: "Vantage Risk", 
         title: "Software Engineering Intern", 
         description:"Developed a dynamic React dashboard that collects API calls from a python function app to display license usage data across eight developer platforms.",

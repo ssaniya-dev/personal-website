@@ -7,7 +7,7 @@ function Work() {
     return (
         <div className='work'>
             <Sectioner/>
-            <label className="title">Work</label>
+            <label className="title">Work Experience</label>
             <div className='work-data'>
                 {data.map((work) => {
                     return (

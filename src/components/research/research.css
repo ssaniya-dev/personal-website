@@ -1,0 +1,47 @@
+.research {
+    display: flex; 
+    flex-direction: column;
+    width: 100%;
+}
+.research-data {
+    display: flex; 
+    flex-wrap : wrap; 
+    margin: 24px 0px; 
+    justify-content: space-between;
+    align-items: center;
+}
+.research-container {
+    padding: 8px; 
+    margin-top: 16px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 45%;
+}
+.research-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.research-logo {
+    height: 150px;
+}
+.research-dates {
+    color: rgb(214, 73, 73); 
+}
+.research-desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    max-width: 80%;
+    -webkit-box-orient:horizontal;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    text-align: left;
+}
+
+@media only screen and (max-width: 750px) {
+    .work-container {
+        width: 100%;
+    }
+}

@@ -43,5 +43,9 @@ export const SkillsArray=[
         name: 'Azure',
         icon:  <i class="devicon-azure-plain colored"></i>
     },
+    {
+        name: 'C',
+        icon: <i class="devicon-c-plain colored"></i>
+    }
 
 ]
