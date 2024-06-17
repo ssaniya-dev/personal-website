@@ -195,26 +195,26 @@ const testimonials = [
 
 const projects = [
   {
-    name: "LinearCPP",
+    name: "Syntaxia Compiler",
     description:
-      "A C++ library with over 30 functions for advanced matrix operations, featuring a custom memory allocator and optimized multi-threading for enhanced performance.",
+      "A compiler for a custom language capable of handling arithmetic operations, loops, and conditionals with lexical analysis, semantic analysis, and more.",
     tags: [
       {
         name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "Shell",
+        name: "C",
         color: "green-text-gradient",
       },
       {
-        name: "Mathematics",
+        name: "x86",
         color: "pink-text-gradient",
       },
     ],
     image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/cmath",
-  },
+    source_code_link: "https://github.com/ssaniya-dev/Syntaxia",
+  }, 
   {
     name: "AllerGEN",
     description:
@@ -278,6 +278,27 @@ const projects = [
     image: gmail,
     source_code_link: "https://github.com/ssaniya-dev/ai-chatbot",
   },
+  {
+    name: "CelestiaOS",
+    description:
+      "Built an operating system kernel with system calls for ELF programs, including preemptive scheduling, page cache, virtual memory, and a TLB.",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Makefile",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gmail,
+    source_code_link: "https://github.com/ssaniya-dev/",
+  }, 
   {
     name: "TravelHaven",
     description:
