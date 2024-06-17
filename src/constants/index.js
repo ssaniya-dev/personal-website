@@ -302,7 +302,7 @@ const projects = [
   {
     name: "TravelHaven",
     description:
-      "A React-based travel application that recommends tourists attractions based on a set of parameters such as rating and price point.",
+      "A React-based travel application that recommends tourists attractions based on a set of parameters such as price point and rating.",
     tags: [
       {
         name: "React",
