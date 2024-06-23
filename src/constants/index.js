@@ -297,7 +297,7 @@ const projects = [
       },
     ],
     image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/",
+    source_code_link: "https://github.com/ssaniya-dev/CelestiaOS",
   }, 
   {
     name: "TravelHaven",
