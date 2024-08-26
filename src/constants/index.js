@@ -123,7 +123,10 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "May 2024 - Present",
     points: [
-      "Incoming Intern for Summer 2024 on the Workspace AI team using C++ and Python.",
+      "Leveraged C++ to implement document tone detection and produced contextually precise text with Gemini.",
+      "Created Python configs to streamline action pipelines and specify tone settings, cutting processing time by 25%.",
+      "Enhanced LLM prompts with added context to generate text for the detected style, handling 10k+ daily requests.",
+      "Refactored 3,000 lines of a C++ core LLM processing class into modular components, enhancing maintainability."
     ],
   },
   {
@@ -214,7 +217,7 @@ const projects = [
     ],
     image: gmail,
     source_code_link: "https://github.com/ssaniya-dev/Syntaxia",
-  }, 
+  },
   {
     name: "AllerGEN",
     description:
@@ -298,7 +301,7 @@ const projects = [
     ],
     image: gmail,
     source_code_link: "https://github.com/ssaniya-dev/CelestiaOS",
-  }, 
+  },
   {
     name: "TravelHaven",
     description:
