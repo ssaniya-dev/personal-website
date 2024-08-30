@@ -23,6 +23,7 @@ import google from "./company/google.png";
 import gt from "./company/gt.png";
 import honeywell from "./company/honeywell.png";
 import vantage from "./company/vantage.png";
+import amazon from "./company/amazon.png";
 
 export {
   resume,
@@ -42,6 +43,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  amazon,
   typescript,
   google,
   gt,

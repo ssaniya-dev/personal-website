@@ -19,6 +19,7 @@ import {
   figma,
   docker,
   google,
+  amazon,
   honeywell,
   gt,
   resume,
@@ -117,11 +118,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Development Engineer Intern",
+    company_name: "Amazon",
+    icon: amazon,
+    iconBg: "#FFFFFF",
+    date: "Sept 2024 - Dec 2024",
+    points: [
+      "Incoming for Fall 2024 - Alexa Platform Team",
+    ],
+  },
+  {
     title: "STEP Intern",
     company_name: "Google",
     icon: google,
     iconBg: "#FFFFFF",
-    date: "May 2024 - Present",
+    date: "May 2024 - Aug 2024",
     points: [
       "Leveraged C++ to implement document tone detection and produced contextually precise text with Gemini.",
       "Created Python configs to streamline action pipelines and specify tone settings, cutting processing time by 25%.",
@@ -282,25 +293,25 @@ const projects = [
     source_code_link: "https://github.com/ssaniya-dev/ai-chatbot",
   },
   {
-    name: "CelestiaOS",
+    name: "Election Analysis",
     description:
-      "Built an operating system kernel with system calls for ELF programs, including preemptive scheduling, page cache, virtual memory, and a TLB.",
+      "A NLP-based project that analyzes the impact of presidential debate sentiment on market trends using BERT, Pandas, and NumPy.",
     tags: [
       {
-        name: "C++",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "C",
+        name: "BERT",
         color: "green-text-gradient",
       },
       {
-        name: "Makefile",
+        name: "NumPy",
         color: "pink-text-gradient",
       },
     ],
     image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/CelestiaOS",
+    source_code_link: "https://github.com/ssaniya-dev/Presidential-Debate-Sentiment-Analysis",
   },
   {
     name: "TravelHaven",
