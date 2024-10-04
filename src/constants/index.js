@@ -124,7 +124,8 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Sept 2024 - Dec 2024",
     points: [
-      "Incoming for Fall 2024 - Alexa Platform Team",
+      "Building automated dashboards for real-time monitoring of eMMC and raw NAND flash memory health.",
+      "Enhancing device health monitoring by implementing alert systems to detect abnormal flash memory usage.",
     ],
   },
   {
@@ -135,7 +136,7 @@ const experiences = [
     date: "May 2024 - Aug 2024",
     points: [
       "Leveraged C++ to implement document tone detection and produced contextually precise text with Gemini.",
-      "Created Python configs to streamline action pipelines and specify tone settings, cutting processing time by 25%.",
+      "Created Python configs to streamline action pipelines and specify tone settings, cutting processing time.",
       "Enhanced LLM prompts with added context to generate text for the detected style, handling 10k+ daily requests.",
       "Refactored 3,000 lines of a C++ core LLM processing class into modular components, enhancing maintainability."
     ],
@@ -272,7 +273,7 @@ const projects = [
     source_code_link: "https://github.com/ssaniya-dev/Dressify",
   },
   {
-    name: "PandemicPal",
+    name: "iloveemail.lol",
     description:
       "A chatbot that is aimed at assisting businesses during COVID-19. It automatically answers a user's question about a store by leverging natural language processing.",
     tags: [
