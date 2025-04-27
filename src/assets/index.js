@@ -24,6 +24,7 @@ import gt from "./company/gt.png";
 import honeywell from "./company/honeywell.png";
 import vantage from "./company/vantage.png";
 import amazon from "./company/amazon.png";
+import meta from "./company/meta.png"
 
 export {
   resume,
@@ -49,4 +50,5 @@ export {
   gt,
   honeywell,
   vantage,
+  meta,
 };

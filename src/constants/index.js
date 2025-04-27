@@ -25,6 +25,7 @@ import {
   resume,
   vantage,
   github,
+  meta,
 } from "../assets";
 
 export const navLinks = [
@@ -118,14 +119,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer Intern",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#FFFFFF",
+    date: "May 2025 - Aug 2025",
+    points: [
+      "Incoming SWE Intern on the People Data team :D",
+    ],
+  },
+  {
     title: "Software Development Engineer Intern",
     company_name: "Amazon",
     icon: amazon,
     iconBg: "#FFFFFF",
     date: "Sept 2024 - Dec 2024",
     points: [
-      "Building automated dashboards for real-time monitoring of eMMC and raw NAND flash memory health.",
-      "Enhancing device health monitoring by implementing alert systems to detect abnormal flash memory usage.",
+      "Built dashboards to view eMMC flash usage with Python alerts, boosting anomaly detection accuracy by ∼32%.",
+      "Optimized SQL queries for aggregating and visualizing flash memory health data using partitioning and indexing.",
     ],
   },
   {
@@ -135,11 +146,11 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "May 2024 - Aug 2024",
     points: [
-      "Leveraged C++ to implement document tone detection and produced contextually precise text with Gemini.",
-      "Created Python configs to streamline action pipelines and specify tone settings, cutting processing time.",
-      "Enhanced LLM prompts with added context to generate text for the detected style, handling 10k+ daily requests.",
-      "Refactored 3,000 lines of a C++ core LLM processing class into modular components, enhancing maintainability."
-    ],
+      "Leveraged C++ to collaboratively set a basis for tone-based text generation within Gemini for Google Docs.",
+      "Created Python configs to streamline action pipelines and specify tone settings for faster rollouts and extensibility.",
+      "Utilized prompt engineering to enhance LLM inputs to generate text with a given tone for 2k+ daily active users.",
+      "Wrote an extension design document draft for detecting a tone from a document, allowing for contextual accuracy."
+    ]
   },
   {
     title: "Software Engineer Intern",
@@ -161,7 +172,7 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Jan 2023 - Present",
     points: [
-      "Co-engineered a Python-based model to predict projected earnings for 500+ firms, achieving a precision rate of 71.43% with random forests and 66.98% using gradient boosting techniques.",
+      "Increased earning prediction accuracy for 500 firms by 20% with gradient boosting and random forests in Python.",
       "Prepped XBRL 10-K, I/B/E/S, and CRSP data with Pandas by handling inconsistencies and removing outliers.",
       "Revealed the top 10 earnings predictors by calculating summary statistics for factors in financial statements.",
     ],
@@ -210,6 +221,90 @@ const testimonials = [
 
 const projects = [
   {
+    name: "iloveemail.lol",
+    description:
+      "An AI email agent using NestJS, Python, and YOLOv8 to automate meeting scheduling, Delta flight check-ins, and form autofill with real-time data extraction (HackMIT 2024 - 1st Place Interaction Sponsor Challenge, 3rd Overall).",
+    tags: [
+      {
+        name: "NestJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "YOLO",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gmail,
+    source_code_link: "https://github.com/ssaniya-dev/hackmit-2024",
+  },
+  {
+    name: "Iris",
+    description:
+      "An AI-driven navigation system with PyTorch, CUDA, and React Native, enabling real-time hazard detection, multi-modal agents, and 100ms optimized response times (TreeHacks 2025 - 3rd for Most Creative On-Device AI Deployment).",
+    tags: [
+      {
+        name: "PyTorch",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CUDA",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React Native",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gmail,
+    source_code_link: "https://github.com/RoyceAroc/iris",
+  },
+  {
+    name: "Lunar FLARES",
+    description:
+     "An autonomous lunar rover navigation system built with C++, Python, and ROS, leveraging custom ROS nodes for terrain analysis and hazard detection to improve navigation safety (Affiliated with the Johns Hopkins Applied Physics Laboratory).",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ROS",
+        color: "pink-text-gradient",
+      },
+    ],
+    // image: gmail,
+    // source_code_link: "https://github.com/RoyceAroc/iris",
+  },
+  {
+    name: "GitFile",
+    description:
+      "A Git wrapper for flat files like PDFs and DOCX, cutting storage costs by 500x with a Next.js frontend and Azure backend (HackUTD 2024 - Best Use of Terraform).",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Azure",
+        color: "green-text-gradient",
+      },
+      {
+        name: "C",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gmail,
+    source_code_link: "https://github.com/ssaniya-dev/GitFile",
+  },
+  {
     name: "Syntaxia Compiler",
     description:
       "A compiler for a custom language capable of handling arithmetic operations, loops, and conditionals with lexical analysis, semantic analysis, and more.",
@@ -252,48 +347,6 @@ const projects = [
     source_code_link: "https://github.com/ssaniya-dev/allergen",
   },
   {
-    name: "Dressify",
-    description:
-      "A Java mobile app with image recognition to manage clothing inventory using MongoDB and TensorFlow for personalized styling suggestions.",
-    tags: [
-      {
-        name: "Java",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TensorFlow",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/Dressify",
-  },
-  {
-    name: "iloveemail.lol",
-    description:
-      "A chatbot that is aimed at assisting businesses during COVID-19. It automatically answers a user's question about a store by leverging natural language processing.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "PyTorch",
-        color: "green-text-gradient",
-      },
-      {
-        name: "AI/ML",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/ai-chatbot",
-  },
-  {
     name: "Election Analysis",
     description:
       "A NLP-based project that analyzes the impact of presidential debate sentiment on market trends using BERT, Pandas, and NumPy.",
@@ -313,27 +366,6 @@ const projects = [
     ],
     image: gmail,
     source_code_link: "https://github.com/ssaniya-dev/Presidential-Debate-Sentiment-Analysis",
-  },
-  {
-    name: "TravelHaven",
-    description:
-      "A React-based travel application that recommends tourists attractions based on a set of parameters such as price point and rating.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/fbla-travelapp",
   },
 ];
 
