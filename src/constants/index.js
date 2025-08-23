@@ -125,7 +125,10 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "May 2025 - Aug 2025",
     points: [
-      "Incoming SWE Intern on the People Data team :D",
+      "Built an access control list (ACL) analyzer in Hack (PHP) to flag risks, preventing unauthorized system access.",
+      "Created analyzer objects to encapsulate alert conditions (e.g., grant limits) and query ACL state for evaluation.",
+      "Onboarded ∼6K ACLs into the analyzer via bulk ingestion scripts in Hack (PHP) for automated monitoring.",
+      "Delivered a React-based dashboard with filtering and pagination, cutting time-to-diagnosis for risks by ∼50%.",
     ],
   },
   {
@@ -136,7 +139,7 @@ const experiences = [
     date: "Sept 2024 - Dec 2024",
     points: [
       "Built dashboards to view eMMC flash usage with Python alerts, boosting anomaly detection accuracy by ∼32%.",
-      "Optimized SQL queries for aggregating and visualizing flash memory health data using partitioning and indexing.",
+      "Optimized SQL queries with partitioning/indexing, slashing data aggregation times from ≤ 90s to ≤ 5s.",
     ],
   },
   {
@@ -147,7 +150,7 @@ const experiences = [
     date: "May 2024 - Aug 2024",
     points: [
       "Leveraged C++ to collaboratively set a basis for tone-based text generation within Gemini for Google Docs.",
-      "Created Python configs to streamline action pipelines and specify tone settings for faster rollouts and extensibility.",
+      "Created Python configs to streamline action pipelines and tone updates, cutting deployment from days to hours.",
       "Utilized prompt engineering to enhance LLM inputs to generate text with a given tone for 2k+ daily active users.",
       "Wrote an extension design document draft for detecting a tone from a document, allowing for contextual accuracy."
     ]
@@ -189,33 +192,6 @@ const experiences = [
       "Identified a security breach during a CTF event, discerning hacker activity and implementing countermeasures.",
       "Strengthened a deal analysis application by encrypting 30+ secrets and optimizing for multiple virtual machines.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -265,7 +241,7 @@ const projects = [
   {
     name: "Lunar FLARES",
     description:
-     "An autonomous lunar rover navigation system built with C++, Python, and ROS, leveraging custom ROS nodes for terrain analysis and hazard detection to improve navigation safety (Affiliated with the Johns Hopkins Applied Physics Laboratory).",
+      "An autonomous lunar rover navigation system built with C++, Python, and ROS, leveraging custom ROS nodes for terrain analysis and hazard detection to improve navigation safety (Affiliated with the Johns Hopkins Applied Physics Laboratory).",
     tags: [
       {
         name: "C++",
@@ -346,27 +322,6 @@ const projects = [
     image: gmail,
     source_code_link: "https://github.com/ssaniya-dev/allergen",
   },
-  {
-    name: "Election Analysis",
-    description:
-      "A NLP-based project that analyzes the impact of presidential debate sentiment on market trends using BERT, Pandas, and NumPy.",
-    tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "BERT",
-        color: "green-text-gradient",
-      },
-      {
-        name: "NumPy",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/Presidential-Debate-Sentiment-Analysis",
-  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
