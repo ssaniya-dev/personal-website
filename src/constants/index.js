@@ -53,7 +53,12 @@ const services = [
     title: "LinkedIn",
     icon: linkedin,
     link: "https://www.linkedin.com/in/saniya-savla/",
-  }
+  },
+  {
+    title: "Resume",
+    icon: resume,
+    link: "https://drive.google.com/file/d/1-obUDyotvCOmLJuTenWTJpyWsBkvq85T/view?usp=sharing",
+  },
 ];
 
 const technologies = [
